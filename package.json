@@ -1,0 +1,17 @@
+{
+   "name": "craft",
+   "version": "1.0.0",
+   "description": "",
+   "scripts": {
+      "dev": "npx tailwind -i src/tailwind.css -o dist/style.css",
+      "build": "set NODE_ENV=production&&npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --minify"
+   },
+   "keywords": [],
+   "author": "xMdb",
+   "license": "MIT",
+   "devDependencies": {
+      "autoprefixer": "^10.3.1",
+      "postcss": "^8.3.6",
+      "tailwindcss": "^2.2.7"
+   }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <script src="./js/butter.min.js"></script>
+      <title>craft - The fastest way to create Minecraft mods</title>
+   </head>
+   <body>
+      <div id="butter">
+         <main class="h-screen">
+            <header class="list-none flex items-start m-10">
+               <h1 class="text-green-300 font-bold text-3xl">craft.</h1>
+               <nav class="flex flex-1 justify-end">
+                  <ul>
+                     <li class="inline-block p-5"><a href="#why">Why</a></li>
+                     <li class="inline-block p-5"><a href="#install">Get Started</a></li>
+                     <li class="inline-block p-5"><a href="#docs">Docs</a></li>
+                  </ul>
+               </nav>
+            </header>
+            <section class="h-4/5">
+               <h1 class="text-4xl">The tool made for Minecraft mod developers.</h1>
+               <p>With Craft, you can easily create new mods for multiple platforms with high-level programming.</p>
+               <div class="flex justify-end items-center my-12">
+                  <img src="./img/main.svg" alt="" class="max-w-3xl" />
+               </div>
+            </section>
+         </main>
+         <section id="why" class="bg-gray-100">
+            <h2 class="tracking-widest text-center p-10">WHY</h2>
+            <img src="./img/why.svg" alt="" />
+            <h1>Free, fast, and easy to learn.</h1>
+            <p>
+               Built with Kotlin and open source, Craft is the most efficient way to create complex mods for Forge, modpacks
+               and custom clients.<br /><br />Craft also solves most of the issues that Java creates. No more janky updating,
+               slow compiling, or lack of security.
+            </p>
+         </section>
+         <section id="install" class="flex justify-center content-center text-center flex-col">
+            <h2 class="tracking-widest p-10">GET STARTED</h2>
+            <h1>It's easy to get started.</h1>
+            <code class="p-1 bg-gray-200 rounded-xl">app install craft</code>
+            <img src="./img/use.svg" alt="" class="max-w-xl max-h-xl" />
+         </section>
+         <footer class="bg-gray-50 flex justify-content content-center text-center flex-col">
+            <p class="p-3">Made by Matthew G/xMdb &copy; 2021</p>
+            <p class="p-3">Disclaimer: This product is for design purposes only.</p>
+         </footer>
+      </div>
+   </body>
+   <script>
+      const options = {
+         wrapperDamper: 0.05,
+         cancelOnTouch: true,
+      };
+      butter.init(options);
+   </script>
+</html>
