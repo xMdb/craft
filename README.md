@@ -6,4 +6,4 @@ craft is a website for a fake programming language that I came up with. It doesn
 I designed this in Figma, and built it using TailwindCSS.
 
 ### View
-You can view the website [here](https://xmdb.github.io/craft).
+You can view the website [here](https://mgrif-craft.netlify.app/).
