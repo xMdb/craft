@@ -4,14 +4,14 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="./img/favicon.ico" />
       <link rel="stylesheet" href="style.css" />
-      <script src="./js/butter.min.js"></script>
-      <title>craft - The fastest way to create Minecraft mods</title>
+      <title>craft</title>
    </head>
    <body>
-      <div id="butter">
          <main class="h-screen">
-            <header class="list-none flex items-start m-10">
+            <!-- Nav -->
+            <header class="list-none flex items-start mt-10">
                <h1 class="text-green-300 font-bold text-3xl">craft.</h1>
                <nav class="flex flex-1 justify-end">
                   <ul>
@@ -21,41 +21,49 @@
                   </ul>
                </nav>
             </header>
-            <section class="h-4/5">
-               <h1 class="text-4xl">The tool made for Minecraft mod developers.</h1>
-               <p>With Craft, you can easily create new mods for multiple platforms with high-level programming.</p>
-               <div class="flex justify-end items-center my-12">
-                  <img src="./img/main.svg" alt="" class="max-w-3xl" />
+            <!-- Feature -->
+            <section class="h-4/5 flex items-start flex-col">
+               <div class="flex items-start content-center mt-10">
+                  <h1 class="text-4xl">The tool made for Minecraft mod developers.</h1>
+                  <p>
+                     With Craft, you can easily create new mods for multiple platforms with high-level programming.
+                  </p>
+               </div>
+               <div class="flex-1 justify-end">
+                  <img src="./img/main.svg" alt="" class="max-w-3xl justify-end" />
                </div>
             </section>
          </main>
+         <!-- Why -->
          <section id="why" class="bg-gray-100">
             <h2 class="tracking-widest text-center p-10">WHY</h2>
-            <img src="./img/why.svg" alt="" />
-            <h1>Free, fast, and easy to learn.</h1>
+            <img src="./img/why.svg" alt="" class="max-w-xl max-h-xl" />
+            <h1 class="text-4xl">Free, fast, and easy to learn.</h1>
             <p>
                Built with Kotlin and open source, Craft is the most efficient way to create complex mods for Forge, modpacks
                and custom clients.<br /><br />Craft also solves most of the issues that Java creates. No more janky updating,
                slow compiling, or lack of security.
             </p>
          </section>
-         <section id="install" class="flex justify-center content-center text-center flex-col">
+         <!-- Installation -->
+         <section id="install" class="text-center">
             <h2 class="tracking-widest p-10">GET STARTED</h2>
-            <h1>It's easy to get started.</h1>
-            <code class="p-1 bg-gray-200 rounded-xl">app install craft</code>
-            <img src="./img/use.svg" alt="" class="max-w-xl max-h-xl" />
+            <h1 class="text-4xl pb-5">It's easy to get started.</h1>
+            <code class="bg-gray-200 rounded-xl p-1 text-xl">app install craft</code>
+            <div class="flex justify-center p-10">
+               <img src="./img/use.svg" alt="" class="max-w-xl max-h-xl" />
+            </div>
          </section>
-         <footer class="bg-gray-50 flex justify-content content-center text-center flex-col">
+         <!-- Documentation -->
+         <section id="docs">
+
+         </section>
+
+         <!-- Footer -->
+         <footer class="bg-gray-50 flex justify-content content-center text-center flex-col p-3">
             <p class="p-3">Made by Matthew G/xMdb &copy; 2021</p>
-            <p class="p-3">Disclaimer: This product is for design purposes only.</p>
+            <p class="p-3">Disclaimer: This company and/or product is fictitious and is for design mock-up purposes only.</p>
          </footer>
       </div>
    </body>
-   <script>
-      const options = {
-         wrapperDamper: 0.05,
-         cancelOnTouch: true,
-      };
-      butter.init(options);
-   </script>
 </html>

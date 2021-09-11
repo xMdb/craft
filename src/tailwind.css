@@ -31,6 +31,13 @@
       border-radius: 10px;
       border: 3px solid #ffffff;
    }
+
+   header,
+   main,
+   section,
+   footer {
+      padding: 0 5vw 0;
+   }
 }
 
 @tailwind utilities;
