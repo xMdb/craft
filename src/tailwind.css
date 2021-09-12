@@ -33,10 +33,9 @@
    }
 
    header,
-   main,
    section,
    footer {
-      padding: 0 5vw 0;
+      padding: 0 10vw 0;
    }
 }
 
