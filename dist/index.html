@@ -18,12 +18,12 @@
       <link rel="stylesheet" href="style.css" />
       <title>craft.</title>
    </head>
-   <body>
+   <body class="overflow-x-hidden md:overflow-x-auto">
       <main class="h-screen">
          <!-- Nav -->
-         <header class="flex items-start mt-10 align-middle">
-            <h1 class="text-green-300 font-black text-4xl justify-start text-left flex-1">craft.</h1>
-            <nav class="flex flex-1 justify-end">
+         <header class="flex md:items-start items-center mt-10 align-middle md:flex-row flex-col">
+            <h1 class="text-green-300 font-black text-4xl md:justify-start md:text-left text-center md:flex-1">craft.</h1>
+            <nav class="flex md:flex-1 md:justify-end justify-center">
                <ul>
                   <li class="inline-block p-5"><a href="#why">Why</a></li>
                   <li class="inline-block p-5"><a href="#install">Get Started</a></li>
@@ -31,24 +31,28 @@
                </ul>
             </nav>
          </header>
+
          <!-- Feature -->
-         <section class="h-4/5 flex justify-center items-center pb-10">
+         <section class="md:h-4/5 flex justify-center items-center md:pb-10 flex-col md:flex-row text-center md:text-left">
             <div>
-               <h1 class="text-7xl pb-10">The easy to use tool made for developers, by developers.</h1>
-               <p class="text-2xl">
+               <h1 class="text-5xl md:text-6xl xl:text-7xl pb-10 pt-10 md:pt-0">
+                  The easy to use tool made for developers, by developers.
+               </h1>
+               <p class="text-lg md:text-xl lg:text-2xl pb-10 md:pb-0">
                   With Craft, you can easily create new mods for multiple platforms with high-level programming.
                </p>
             </div>
-            <img src="./img/main.svg" alt="" class="max-w-3xl" />
+            <img src="./img/main.svg" alt="" class="md:max-w-3xl max-w-lg" />
          </section>
       </main>
+
       <!-- Why -->
       <section id="why" class="bg-gray-100">
          <h1 class="tracking-widest text-center p-10">WHY CRAFT?</h1>
-         <div class="flex justify-center items-center py-10">
-            <img src="./img/why.svg" alt="" class="max-w-3xl max-h-3xl pr-10" />
-            <div class="whitespace-">
-               <h2 class="text-6xl">
+         <div class="flex justify-center items-center py-10 text-center md:text-left flex-col md:flex-row">
+            <img src="./img/why.svg" alt="" class="md:max-w-3xl max-w-sm md:pr-10" />
+            <div>
+               <h2 class="text-5xl md:text-6xl md:p-0 pt-5">
                   Fast, free, and<br />
                   easy to learn.
                </h2>
@@ -66,14 +70,14 @@
          <h1 class="text-5xl pb-8">It's easy to get started.</h1>
          <code class="bg-gray-200 rounded-xl p-2 text-xl tracking-wide">app install craft</code>
          <div class="flex justify-center p-10">
-            <img src="./img/use.svg" alt="" class="max-w-xl max-h-xl" />
+            <img src="./img/use.svg" alt="" class="md:max-w-xl max-w-md" />
          </div>
       </section>
       <!-- Documentation -->
       <section id="docs"></section>
 
       <!-- Footer -->
-      <footer class="bg-gray-50 flex justify-content content-center text-center flex-col p-3">
+      <footer class="bg-gray-100 md:bg-gray-50 flex justify-content content-center text-center flex-col p-3">
          <p class="p-3">Made by Matthew G/xMdb &copy; 2021</p>
          <p class="p-3">Disclaimer: This company and/or product is fictitious and is for design mock-up purposes only.</p>
       </footer>
